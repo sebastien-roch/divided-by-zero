@@ -1,16 +1,16 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://myurl.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "Divided by Zero",
+  "url": "https://blog.sebastien-roch.com/",
+  "description": "My blog about Javascript and Web in general",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "My blog about Javascript and Web in general",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://blog.sebastien-roch.com/feed/feed.xml",
+    "id": "https://blog.sebastien-roch.com/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Sébastien Roch",
+    "email": "roch.sebastien@gmail.com"
   }
 }
