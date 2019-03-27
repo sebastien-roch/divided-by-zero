@@ -1,7 +1,7 @@
 ---
 title: Apply a slight shadow when container is scrolled
 description: Scrolling shadows is a subtle effect used by Google in its material design.
-date: 2019-02-13
+date: 2019-03-09
 tags:
   - UX
   - Javascript
@@ -20,6 +20,6 @@ Here is a demo:
   
 There are also pure CSS version of this effect like the one from the great Lea Verou (http://lea.verou.me/2012/04/background-attachment-local/), but the CSS is _slightly_ more complicated!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMjQ0OTM1LDc0NTk3MTg5NSwxMzU2ND
-A0Mzk5XX0=
+eyJoaXN0b3J5IjpbLTIwODk1MjcyODMsNzQ1OTcxODk1LDEzNT
+Y0MDQzOTldfQ==
 -->
