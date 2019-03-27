@@ -18,7 +18,7 @@ Here is a demo:
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   
-There are also pure CSS version of this effect, but they  
+There are also pure CSS version of this effect like the one from the great Léa Vérou (http://lea.verou.me/2012/04/background-attachment-local/), but I couldn't apply them in my case because of existing backgrounds.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MDY3ODkwLDEzNTY0MDQzOTldfQ==
+eyJoaXN0b3J5IjpbNzQ1OTcxODk1LDEzNTY0MDQzOTldfQ==
 -->
