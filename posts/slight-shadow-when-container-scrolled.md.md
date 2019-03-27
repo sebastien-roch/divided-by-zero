@@ -1,6 +1,6 @@
 ---
 title: Apply a slight shadow when container is scrolled
-description: Find out if content overflows its parent element.
+description: Apply a slight shadow when container is scrolled
 date: 2019-02-13
 tags:
   - UX
@@ -18,7 +18,8 @@ Here is a demo:
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   
-There are also pure CSS version of this effect like the one from the great Léa Vérou (http://lea.verou.me/2012/04/background-attachment-local/), but I couldn't apply them in my case because of existing backgrounds.
+There are also pure CSS version of this effect like the one from the great Lea Verou (http://lea.verou.me/2012/04/background-attachment-local/), but the CSS is _slightly_ more complicated!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1OTcxODk1LDEzNTY0MDQzOTldfQ==
+eyJoaXN0b3J5IjpbLTExMDEwNzYzNTgsNzQ1OTcxODk1LDEzNT
+Y0MDQzOTldfQ==
 -->
