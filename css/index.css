@@ -19,6 +19,12 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
 }
+
+.wrapper {
+  max-width: 1024px;
+  margin: auto;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
