@@ -1,14 +1,19 @@
-<ol reversed class="postlist" style="counter-reset: start-from {{ postslist.length + 1 }}">
+<div class="postlist">
 {% for post in postslist | reverse %}
-  <li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-    <a href="{{ post.url | url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+  <a href="{{ post.url }}"
+    title="{{ post.data.description }}"
+    class="postitem{% if post.url == url %} postitem--active{% endif %}"
+    style="background-image: url({{ post.data.image }})">
+    <h1 class="postitem__title">{{ post.data.title }}</h1>
+    <time class="postitem__date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+    {#
     {% for tag in post.data.tags %}
       {%- if tag != "posts" -%}
       {% set tagUrl %}/tags/{{ tag }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
-  </li>
+    #}
+  </a>
 {% endfor %}
-</ol>
+</div>

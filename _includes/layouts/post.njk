@@ -2,7 +2,14 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
+{% if (jsFiles.length) > 0 %}
+    {% for src in jsFiles %}
+        <script src="{{ src }}"></script>
+    {% endfor %}
+{% endif %}
 <h1>{{ title }}</h1>
+
+<img class="head-image" src="{{ image }}" />
 
 {{ content | safe }}
 
