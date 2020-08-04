@@ -38,7 +38,7 @@ Web components aim to be native, reusable blocks to build your application. They
 Let's see a **very** simple example of a component you may want to reuse in a lot of places. We will add a new tag `<text-blink>` that makes the contained text blink every second. This example can obviously be implemented with just CSS, but we will create a web component for the demo. This is how it looks:
 
 <div class="live-example">
-    <p>I just created my <text-blink>awesome</text-blink> new web component!</p>
+    <p class="mrg-0">I just created my <text-blink>awesome</text-blink> new web component!</p>
 </div>
 
 Feel free to inspect this component with the dev-tools inspector.
